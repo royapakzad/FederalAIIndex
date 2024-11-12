@@ -1,5 +1,4 @@
-# FederalAIIndex
-The code and dataset used for the project The U.S. Responsible AI Procurement Index (2023)
+# The U.S. Responsible AI Procurement Index (2023)
 
 We utilized USAspending.gov, an open data platform that provides federal procurement data across U.S. government agencies. We applied the keywords “artificial intelligence” and “machine learning” to capture procurement records that mentioned these terms in the contract descriptions. The search was limited to fiscal years 2023 and 2024 to align with the researcher’s fellowship timeline at UVA and to capture recent data relevant to Executive Order (EO) 13960 (2020), which emphasizes the acquisition of trustworthy AI technologies and underscores the importance of transparency and accountability in AI procurement within public-private partnerships.
 To focus on relevant contracts, we filtered our search to include only “Contract” and “IDV Contract” award types. After narrowing the results by agency, we downloaded the data in CSV format for further processing.
